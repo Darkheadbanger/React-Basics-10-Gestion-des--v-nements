@@ -5,36 +5,31 @@ import './style.css';
 
 // 1. populate the following array with the correct data
 const contactInfo = [
-  {
-    name: 'Emmanuelle',
-    email: '📧emmanuel@email.com',
-    phone: '📞234234234',
-    isDeletable: true,
-  },
-  {
-    name: 'David',
-    email: '📧david@email.com',
-    phone: '📞666',
-    isDeletable: true,
-  },
-  {
-    name: 'Sophie',
-    email: '📧david@email.com',
-    phone: '📞123',
-    isDeletable: false,
-  },
-  {
-    name: 'Lucas',
-    email: '📧lucas@email.com',
-    phone: '📞456',
-    isDeletable: true,
-  },
-  {
-    name: 'Emma',
-    email: '📧emma@email.com',
-    phone: '📞789',
-    isDeletable: false,
-  },
+{name:"Emmanuelle",
+email:"📧emmanuel@email.com",
+phone:"📞234234234",
+isDeletable:true,
+},
+{name:"David",
+email:"📧david@email.com",
+phone:"📞666",
+isDeletable:true
+},
+{name:"Sophie",
+email:"📧david@email.com",
+phone:"📞123",
+isDeletable:false
+},
+{name:"Lucas",
+email:"📧lucas@email.com",
+phone:"📞456",
+isDeletable:true
+},
+{name:"Emma",
+email:"📧emma@email.com",
+phone:"📞789",
+isDeletable:false
+}
 ];
 
 export default function App() {
